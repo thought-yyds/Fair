@@ -1,0 +1,30 @@
+# FastAPI 核心依赖
+fastapi==0.116.1
+uvicorn[standard]==0.35.0
+
+# 数据库相关
+sqlalchemy==2.0.43
+alembic==1.12.1
+
+# 文件处理
+python-multipart==0.0.20
+python-docx==1.2.0
+pypdf2==3.0.1
+pdf2docx==0.5.8
+
+# AI模型相关
+torch==2.8.0
+transformers==4.56.1
+
+# LangChain 相关
+langchain==0.3.0
+langchain-core==0.3.0
+langchain-community==0.3.0
+
+# 工具库
+python-dotenv~=1.1.1
+pydantic==2.11.7
+pydantic-settings==2.0.3
+
+requests~=2.32.5
+volcengine-ark-runtime>=0.1.0
